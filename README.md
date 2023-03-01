@@ -1,5 +1,5 @@
 # neuRave
-This was an 8 person team project to build a music social media and event planning web app with a rave theme. The 4 pages of this app are Login/Home, Groups, Discover, and Profile. After an initial group planning phase, pairs of team members were assigned to each page. I (Ben Tanaka) and Christopher Leblanc were assigned to the **_Discover Page_**, which  For a more detailed README covering the other 3 pages and the entire team, please see repo this was forked from.
+This was an 8 person team project to build a music social media and event planning web app with a rave theme. The 4 pages of this app are Login/Home, Groups, Discover, and Profile. After an initial group planning phase, we split into pairs and each was assigned to 1 page. Myself (Ben Tanaka) and Christopher Leblanc were assigned to the **_Discover Page_**. I did the backend and contributed with the frontend. For a more detailed README covering the other 3 pages and the entire team, please see repo this was forked from.
 
 ## Code I (Ben Tanaka) Wrote
 * [/server/routes/sg.js](/server/routes/sg.js)
