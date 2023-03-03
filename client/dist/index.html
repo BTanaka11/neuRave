@@ -14,6 +14,12 @@
     <script>
       var socket = io();
     </script>
+    <script src="https://unpkg.com/hydra-synth"></script>
+    <script>
+          // create a new hydra-synth instance
+          var hydra = new Hydra({ detectAudio: false })
+          osc(4, 0.1, 1.2).out()
+    </script>
     <script type="text/javascript" src="bundle.js"></script>
   </body>
 </html>
