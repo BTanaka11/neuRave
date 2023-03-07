@@ -17,7 +17,13 @@ This was an 8 person team project to build a music social media and event planni
 ## Discover Page
 Allows users to search for upcoming music events from an external Seatgeek API and create groups for events or join existing groups. This page is the main route by which external data enters the app's database. The only other one is Login/Home page which brings in Spotify account details. Search results are limited to 50 events at a time and sorted by the soonest upcoming event date. Each card can be clicked to redirect the user to seat geek’s website for that concert in order to purchase tickets. Each card also has the ability to join the events group or create a group if one has not been made. If both of those choices are not applicable due to the user being in that group already the button will dynamically change to show that status.
 
-<img src="walkThroughGifs/Discover_Page.gif"/>
+<!--- <img src="walkThroughGifs/Discover_Page.gif"/> --->
+https://user-images.githubusercontent.com/37204126/223301349-ab214f01-0ab3-4035-a603-3533283207f0.mp4
+
+## Database
+The PostgreSQL database was deployed as an EC2 micro instance remotely accessible by the team. Here is the schema and what some of the data looked like.
+
+https://user-images.githubusercontent.com/37204126/223301520-f6724939-62ce-4276-a7bf-8cd617232f27.mp4
 
 ## Tech Stack I Used
 ### Front End
